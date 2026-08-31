@@ -1,0 +1,60 @@
+Ejercicio 1
+
+Usando ArayList escriba un programa que permita hacer altas, bajas, búsqueda y recorridos
+
+en una lista de enteros
+
+en una lista de objetos Alumno (cree la clase)
+
+
+
+Ejercicio 2
+
+¿Qué es un iterador? (iterator). Muestre cómo se usa, haciendo altas, bajas, recorridos y búsquedas en listas implementadas con ArrayList.
+
+
+
+Ejercicio 3
+
+Escribir un programa que ingrese un string y la ruta correspondiente a un archivo de texto y emita un mensaje indicando si dicho string está o no en el archivo. Por ejemplo en el archivo se encuentra el texto “Hoy es viernes y esta soleado”, el usuario ingresa el texto “viernes” y la respuesta del programa debe ser que se encuentra el texto en el archivo.
+
+
+
+Ejercicio 4
+
+Se desea diseñar un programa que permita manipular una agenda mediante serialización-deserialización. Cada registro de la agenda cuenta con nombre, apellido, teléfono de linea, teléfono móvil, teléfono del trabajo, email y un campo que indique de donde conozco a la persona (trabajo, universidad, boliche…). Deberá contar con un menú para registrar, eliminar, buscar un registro y para mostrar todos.
+
+
+Ejercicio 5
+
+Se desea diseñar un programa para registrar y persistir en archivos la información de las reservas de una empresa dedicada al alquiler de automóviles, teniendo en cuenta que:
+
+De cada cliente se desean almacenar su DNI, nombre y apellido, dirección y teléfono. Además dos clientes se diferencian por un código único.
+
+Un determinado cliente puede tener en un momento dado hechas varias reservas.
+
+Una reserva la realiza un único cliente pero puede involucrar varios autos.
+
+Es importante registrar la fecha de inicio y final de la reserva, el precio del alquiler de cada uno de los autos, el precio total de la reserva y un indicador de si el auto o los autos han sido entregados.
+
+De cada auto se requiere la matricula, la marca, el modelo, el color y las plazas (cantidad de personas que puede transportar).
+
+
+
+Ejercicio 6
+
+Se desea diseñar un programa que registre, y persista en archivos, libros (técnicos y novelas) para una librería y permita buscarlos, venderlos y verificar su stock.
+
+Las novelas se clasifican como de ciencia ficción, romance, misterio, juveniles y policiales. Los libros técnicos se clasifican como de ingeniería, ciencias naturales o ciencias sociales.
+
+Cada libro tiene un título, uno o más autores, una editorial, un año de edición y formato (tapas duras o edición económica). Los libros tienen además un código ISBN y capítulos, los que tratan una o más materias (en los técnicos) o es una simple división (en las novelas).
+
+La librería obtiene los libros por medio de proveedores que representan a una o más editoriales. De cada libro se tiene un stock (que puede ser cero). Al venderse un libro, el stock se actualiza. Si un cliente requiere un libro cuyo stock es cero, se puede realizar un encargo por parte del cliente. Esto significa que se pide el libro a un proveedor de la editorial del libro.
+
+
+
+Ejercicio 7 (opcional)
+
+Definir una clase llamada TaTeTi que le permita escribir un programa completo para que dos jugadores puedan jugar al TaTeTi. La clase debe contener una matriz de enteros de 3 filas y 3 columnas que representa el tablero. El constructor debe inicializar el tablero vacío con ceros. Siempre que el primer jugador coloque una marca, se llenará con 1 la casilla especificada y con 5 si juega el jugador 2. Se puede marcar solo aquellas casillas que están vacías. Después de cada jugada hay que determinar si hay algún jugador ganador o hay empate.
+
+Opcional: Incluir en el programa la posibilidad de que el jugador pueda jugar con la computadora.

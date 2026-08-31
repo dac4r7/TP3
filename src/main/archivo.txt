@@ -1,0 +1,7 @@
+Bien, la esteganografía incrusta el mensaje oculto en un archivo de transporte, llamado portador.
+ Después se le añade una clave de esteganografía para cifrar dicho mensaje y solo el receptor
+ pueda acceder a dicha información.Casi cualquier objeto digital puede ocultar un mensaje secreto,
+ sin embargo los ciberdelincuentes tienen preferencia por los archivos multimedia como imágenes,
+ audios o vídeos ya que son archivos grandes que permiten que se incluya más información que
+ por ejemplo en un documento de texto.
+ El fin es evitar ser identificados por los programas antivirus.

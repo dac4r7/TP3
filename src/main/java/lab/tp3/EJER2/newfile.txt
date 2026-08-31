@@ -1,0 +1,33 @@
+public class testIterador { 
+    
+    public static void main(String[] args) {
+       
+     ArrayList<Integer> listaenteros = new ArrayList<>();      
+      
+    System.out.println("SE AGREGAN ELEMENTOS RANDOM A LA LISTA ");
+    for(int i = 0 ; i < 10 ; i++){
+     listaenteros.add((int)(Math.random()*20+1));
+    }
+    //solo permite recorrer el Arraylist y remover elementos
+    Iterator<Integer> it = listaenteros.iterator();  
+    
+        System.out.println("RECORRER LA LISTA :");
+       while(it.hasNext()){
+         int n = it.next();
+            System.out.print(n+"  ");              
+            if(n<10){
+            it.remove();
+                System.out.println("pase por aca");}          
+      }
+        System.out.println("\nELIMINAMOS LOS MENORES A 10 Y RECORREMOS LA LISTA");
+         while(it.hasNext()){
+            System.out.print(it.next()+"  ");             
+      }
+    
+       //Se utiliza ListIterator para agregar , quitar , recorrer el Arraylist
+      //  System.out.println("SE AGREGAN ELEMENTOS : 100 -200 -300");
+        
+        
+    }
+   
+}
